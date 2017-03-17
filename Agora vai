@@ -1,0 +1,2 @@
+a="Vamo que vamo"
+print(a)
