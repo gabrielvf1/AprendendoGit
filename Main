@@ -1,10 +1,6 @@
 from aluno1 import ler_numeros
 from git_maior import maior 
 
-n=(ler_numeros(10))
-if n==None:
-	while n==None:
-		print('Escolha Errada')	
-else:
-	x=maior(n)
-	print (x)
+n=ler_numeros(10)		
+x=maior(n)
+print (x)
