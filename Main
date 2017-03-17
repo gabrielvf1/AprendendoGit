@@ -2,5 +2,10 @@ from aluno1 import ler_numeros
 from git_maior import maior 
 
 n=(ler_numeros(10))
+if n.is_integer():
+	continue
+else:
+	n=ler_numeros(10)
+	
 x=maior(n)
 print (x)
