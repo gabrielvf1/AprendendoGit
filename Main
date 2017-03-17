@@ -1,6 +1,6 @@
 from aluno1 import ler_numeros
- 
+from git_maior import maior 
 
-numeros=int(input('Quantos numeros na lista?:'))
-n=(ler_numeros(numeros))
-print (n)
+n=(ler_numeros(10))
+x=maior(n)
+print (x)
